@@ -19,11 +19,7 @@ export class PlayerService {
   }
 
   getPlayerById(playerId: number){
-    // for (var i = 0; i <= PLAYERS.length -1; i++) {
-    //   if (PLAYERS[i].id === playerId) {
-    //     return PLAYERS[i];
-    //   }
-    // }
+    return this.database.object('players/' + playerId);
   }
 
 }
