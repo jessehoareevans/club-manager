@@ -16,6 +16,10 @@ const appRoutes: Routes = [
   {
     path: 'roster',
     component: RosterComponent
+  },
+  {
+    path: "players/:id",
+    component: PlayerDetailComponent
   }
 ];
 
