@@ -14,7 +14,6 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AdminComponent } from './admin/admin.component';
 import { EditPlayerComponent } from './edit-player/edit-player.component';
 import { PositionPipe } from './position.pipe';
-import { EditPlayerComponent } from './edit-player/edit-player.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,

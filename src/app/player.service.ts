@@ -18,7 +18,7 @@ export class PlayerService {
     this.players.push(newPlayer)
   }
 
-  getPlayerById(playerId: number){
+  getPlayerById(playerId: string){
     return this.database.object('players/' + playerId);
   }
 
