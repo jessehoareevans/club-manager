@@ -2,19 +2,16 @@
     "name": "Gianluigi Buffon",
     "nationality": "Italian",
     "age": "39",
-    "position": "Goalkeeper",
-    "id": "1"
+    "position": "Goalkeeper"
     }, {
     "name": "Roy Keane",
     "nationality": "Irish",
     "age": "43",
-    "position": "Midfielder",
-    "id": "1"
+    "position": "Midfielder"
       }, {
     "name": "Ronaldinho",
     "nationality": "Brazilian",
     "age": "37",
-    "position": "Forward",
-    "id": "1"
+    "position": "Forward"
   }]
 }

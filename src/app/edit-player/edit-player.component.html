@@ -1,0 +1,19 @@
+<h4>Edit Player</h4>
+
+<label>Edit Name:</label>
+<input [(ngModel)]="selectedPlayer.name">
+<br>
+
+<label>Edit Nationality:</label>
+<input [(ngModel)]="selectedPlayer.nationality">
+<br>
+
+<label>Edit Age:</label>
+<input type="number" [(ngModel)]="selectedPlayer.age">
+
+<label>Edit Position:</label>
+<input [(ngModel)]="selectedPlayer.position">
+
+<button (click)="beginUpdatingPlayer(selectedPlayer)">Update</button>
+<hr>
+<button (click)="beginDeletingPlayer(selectedPlayer)">Delete</button>
