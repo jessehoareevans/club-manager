@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { Player } from './player.model';
 // import { PlayerComponent } from './player/player.component';
-import { WelcomeComponent } from './welcome/welcome.component';
+// import { WelcomeComponent } from './welcome/welcome.component';
 
 @Pipe({
   name: 'position',

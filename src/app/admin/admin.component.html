@@ -1,6 +1,6 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Add A New Player to te Team</h3>
+    <h3 class="panel-title">Add A New Player to the Team</h3>
   </div>
     <div class="panel-body">
       <div>
@@ -12,13 +12,13 @@
       <div>
         <label>Player Nationality:</label>
         <br>
-        <input #newNationaity>
+        <input #newNationality>
       </div>
 
       <div>
         <label>Player Age:</label>
         <br>
-        <input #newAge type="number"/>
+        <input type="number" #newAge/>
       </div>
 
       <div>
@@ -26,7 +26,7 @@
         <br>
         <input #newPosition>
       </div>
-    <button (click)="submitForm(newName.value, newNationality.value, newAge.value, newPosition.value); newName.value=''; newNationality.value=''; newAge.value=''; newPosition.value=''">Add Player</button>
+    <button class="btn btn-success" (click)="submitForm(newName.value, newNationality.value, newAge.value, newPosition.value); newName.value=''; newNationality.value=''; newAge.value=''; newPosition.value=''">Add Player</button>
   </div>
 </div>
 

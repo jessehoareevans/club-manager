@@ -5,7 +5,9 @@
   <div class="panel-body">
     <h3 (click)="goToDetailPage(player)"><em>{{player.name}}</em></h3>
     <div *ngIf="currentRoute === '/admin'">
-      {{player.position}}
+      <ul>
+        <li>{{player.position}}</li>
+      </ul>
       <hr>
       <app-edit-player [selectedPlayer]="player"></app-edit-player>
     </div>
