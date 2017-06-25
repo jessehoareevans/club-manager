@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { PlayerService } from '../player.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 
+
 @Component({
   selector: 'app-roster',
   templateUrl: './roster.component.html',
@@ -22,6 +23,11 @@ export class RosterComponent implements OnInit {
 
   goToDetailPage(clickedPlayer) {
    this.router.navigate(['players', clickedPlayer.$key]);
+  }
+
+  filterByPosition: "allPlayers";
+  onChange(option) {
+    this.filterByPosition = option;
   }
 
 }
