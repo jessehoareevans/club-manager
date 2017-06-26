@@ -2,9 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_This is a club manager website intended for a soccer team made with Angular. It tracks the team members, can filter them by position and has full CRUD functionality._
+
+## Prereqs/Setup/Installation
+
+* Clone this repository https://github.com/jessehoareevans/club-manager.git
+* Navigate to repository in command line
+* Run npm install
+* Run bower install
+* Run bower install bootstrap --save
+* Run npm install angularfire2@4.0.0-rc.- firebase--save
+* Run npm install promise-polyfill --save-exact
+* Open project in editor
+* Create a file in src/app called api-keys.ts
+* Set up Firebase database through the website https://firebase.google.com/
+* Command line: run ng serve
+* View app at http://localhost:4200/
+
 
 ## Code scaffolding
 
